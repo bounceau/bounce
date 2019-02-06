@@ -7273,7 +7273,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 300;
-  color: white;
+  color: gray;
   background: url(../images/bg_4.jpg) no-repeat fixed;
   background-size: cover; }
   body.menu-show {
@@ -7659,7 +7659,10 @@ h1, h2, h3, h4, h5,
           border: 2px solid white; }
           .owl-carousel.home-slider .owl-dots .owl-dot.active span {
             background: white; }
-
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
 .bg-light {
   background: #fafafa !important; }
 
